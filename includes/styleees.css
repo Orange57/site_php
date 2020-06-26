@@ -1,0 +1,79 @@
+body
+{
+	background-color: #ECECEC;
+	font-size: 170%;
+	margin: 0; /* pour éviter les marges */
+	text-align: center; /* pour corriger le bug de centrage IE */
+}
+#navigation_head
+{
+	background-color: #F00000;
+	color: white;
+	border: 1px solid grey;
+}
+#navigation_list
+{
+	
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+#contenu
+{
+	text-align: justify;
+	height: auto;
+	margin:0 auto;
+	margin-left:170px;
+}
+#main_avis
+{
+	text-align: justify;
+	background-color: white;
+	border: 1px solid grey;
+	display: flex;
+	width: auto;
+	margin: 100px;
+}
+#logo
+{
+	display:block;
+	width:50px;
+	height:50px;
+	background-position:50% 50%;
+}
+#nav_texte
+{
+	vertical-align: middle;
+}
+#note_radio1, #note_radio2, #note_radio3, #note_radio4, #note_radio5
+{
+	position: absolute;
+	left: -9999px;
+}
+#main_content
+{
+	height: 772px;
+	overflow: auto;
+}
+#main_content_api_fb
+{
+	height: 710px;
+	overflow: auto;
+}
+#avis_index
+{
+	border-top: 1px solid grey;
+}
+li
+{
+	list-style-type: none;
+}
+#in_affichage_avis
+{
+	width: 100px;
+	font-size: 50%;
+}
+#footer
+{
+	background-color: #989490;
+}
